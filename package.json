@@ -1,0 +1,22 @@
+{
+  "name": "weather-app-node",
+  "version": "1.0.0",
+  "description": "```sh\r git clone https://github.com/PiotrBerebecki/weather-app-node.git\r cd weather-app-node\r npm install\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotrBerebecki/weather-app-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiotrBerebecki/weather-app-node/issues"
+  },
+  "homepage": "https://github.com/PiotrBerebecki/weather-app-node#readme",
+  "dependencies": {
+    "request": "^2.73.0"
+  }
+}
