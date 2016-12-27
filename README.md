@@ -1,5 +1,7 @@
 # Weather App - Node
 
+A command line weather app
+
 ## Getting started
 
 ```sh
@@ -10,4 +12,4 @@ npm install
 
 ## Stack used
 * Node
-* Request
+* Request - HTTP requests
