@@ -8,10 +8,17 @@ A command line weather app
 git clone https://github.com/PiotrBerebecki/weather-app-node.git
 cd weather-app-node
 npm install
+
+# Fetch weather for New York
+node app.js -a 'New York'
+
+# Fetch weather a particular address
+node app.js -a '76 Buckingham Palace Road, London, SW1W 9TQ'
 ```
 
-## Stack used
+## Tech stack
 * Node
 * Yargs - Process command line arguments instead of the native `process.argv`
-* Request - HTTP requests
-
+* Axios - HTTP requests
+* Google Geocoding API - Convert address (like "1600 Amphitheatre Parkway, Mountain View, CA") to geographic coordinates (like latitude 37.423021 and longitude -122.083739)
+* Forecast.io
