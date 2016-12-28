@@ -19,6 +19,6 @@ node app.js -a '76 Buckingham Palace Road, London, SW1W 9TQ'
 ## Tech stack
 * Node
 * Yargs - Process command line arguments instead of the native `process.argv`
-* Axios - HTTP requests
+* Axios - Promise based HTTP requests
 * Google Geocoding API - Convert address (like "1600 Amphitheatre Parkway, Mountain View, CA") to geographic coordinates (like latitude 37.423021 and longitude -122.083739)
-* Forecast.io - Get weather for specific geographic coordinates
+* Dark Sky API (aka Forecast.io) - Get weather for specific geographic coordinates
