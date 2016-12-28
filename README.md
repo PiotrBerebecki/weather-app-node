@@ -12,7 +12,7 @@ npm install
 # Fetch weather for New York
 node app.js -a 'New York'
 
-# Fetch weather a particular address
+# Fetch weather for a particular address
 node app.js -a '76 Buckingham Palace Road, London, SW1W 9TQ'
 ```
 
@@ -21,4 +21,4 @@ node app.js -a '76 Buckingham Palace Road, London, SW1W 9TQ'
 * Yargs - Process command line arguments instead of the native `process.argv`
 * Axios - HTTP requests
 * Google Geocoding API - Convert address (like "1600 Amphitheatre Parkway, Mountain View, CA") to geographic coordinates (like latitude 37.423021 and longitude -122.083739)
-* Forecast.io
+* Forecast.io - Get weather for specific geographic coordinates
